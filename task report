@@ -1,0 +1,7 @@
+Windows Firewall Configuration and Testing
+
+I configured and tested a firewall rule on Windows to block inbound traffic on port 23 (Telnet). First, I opened the Windows Defender Firewall with Advanced Security console and reviewed the existing inbound rules.
+
+I then created a new rule to block TCP port 23 for all profiles. After enabling the Telnet Client, I attempted to connect to port 23 locally, which failed as expected.
+
+Finally, I removed the block rule to restore the firewall’s original configuration. This exercise demonstrated how Windows Firewall can be configured to allow or deny specific types of network traffic based on rules, enhancing system security
