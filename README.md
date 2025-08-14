@@ -1,1 +1,2 @@
 # firewall-configuration-and-testing
+This project demonstrates a basic firewall configuration and testing process on both Windows and Linux systems. It includes steps to list current firewall rules, add and remove specific traffic-blocking rules, test their effectiveness, and allow essential ports such as SSH. The objective is to understand how firewalls control and filter network traffic to enhance system security.
